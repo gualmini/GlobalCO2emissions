@@ -4,9 +4,9 @@ import pandas as pd
 
 
 # list of changes I made:
-# NOTE COUNTRY is fgor me also COUNTRY19, i guess a footnote was removed in trhe meantime from the wikipedia page
-# I got rid of the graph inclusing the chnage in emissions for all countries, this was indeed meant for myself and not readable for the user
-# I added a for loop to clean up the data and got rd of the part in which poorly entered data were hard-coded
+# NOTE COUNTRY is now COUNTRY[19] for me too, I guess a footnote was removed in the meantime from the wikipedia page
+# I got rid of the graph including the change in emissions for all countries, this was indeed meant for myself and not readable for the user
+# I added a for loop to clean up the data and got rid of the part in which poorly entered data were hard-coded
 
 available_tables = pd.read_html("https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions")
 
